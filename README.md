@@ -18,5 +18,4 @@ brew upgrade --cask overtone
 brew uninstall --zap --cask overtone
 ```
 
-Releases aren't notarized yet. The first time you open Overtone, macOS blocks it: go to
-**System Settings → Privacy & Security** and click **Open Anyway**.
+Releases are signed with a Developer ID and notarized by Apple.

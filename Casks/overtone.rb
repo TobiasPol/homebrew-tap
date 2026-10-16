@@ -1,6 +1,6 @@
 cask "overtone" do
-  version "1.0.0"
-  sha256 "464e388d18fbbcddc39b58e6f98666556ea3b938cbad3bbd3019bff918facedb"
+  version "1.0.1"
+  sha256 "a4c3a146e12da5cf8319d5c08701a17e9776ccd0ca56a036564955befdeca8eb"
 
   url "https://github.com/TobiasPol/overtone/releases/download/v#{version}/Overtone-#{version}.zip"
   name "Overtone"
@@ -23,10 +23,5 @@ cask "overtone" do
   caveats <<~EOS
     Overtone lives in the menu bar (no Dock icon). On first launch, allow
     "System Audio Recording" when macOS asks.
-
-    Releases are not notarized yet, so macOS blocks the very first launch.
-    Open System Settings → Privacy & Security and click "Open Anyway",
-    or clear the download quarantine yourself:
-      xattr -dr com.apple.quarantine "#{appdir}/Overtone.app"
   EOS
 end

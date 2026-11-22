@@ -1,6 +1,6 @@
 cask "overtone" do
-  version "1.1.0"
-  sha256 "cef477b41d3cf3a4ae8fcd40b70c672bce485824f5f343b69957529a49cf08f3"
+  version "1.1.1"
+  sha256 "ac19da1b0c97f1e8462ebf7d2cbca8aa7da97bfa118f8071ea8cf54f8efae365"
 
   url "https://github.com/TobiasPol/overtone/releases/download/v#{version}/Overtone-#{version}.zip"
   name "Overtone"
